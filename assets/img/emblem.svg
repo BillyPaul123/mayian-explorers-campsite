@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Mayian Explorers Campsite emblem">
   <defs>
-    <path id="arcTop" d="M 14 60 A 46 46 0 0 1 106 60"/>
+    <path id="arcTop" d="M 18 60 A 42 42 0 0 1 102 60"/>
     <path id="arcBottom" d="M 14 60 A 46 46 0 0 0 106 60"/>
   </defs>
 
@@ -38,10 +38,12 @@
   </g>
 
   <!-- compass rose -->
-  <g fill="none" stroke="#000" stroke-width=".7">
-    <circle cx="60" cy="86" r="4.2"/>
-    <path d="M 60 80.6v 1.5M 60 89.9v 1.5M 55.1 86h 1.5M 63.4 86h 1.5"/>
+  <g transform="translate(0,1.6)">
+    <g fill="none" stroke="#000" stroke-width=".7">
+      <circle cx="60" cy="86" r="4.2"/>
+      <path d="M 60 80.6v 1.5M 60 89.9v 1.5M 55.1 86h 1.5M 63.4 86h 1.5"/>
+    </g>
+    <path d="M 60 82.1l 1.4 3-1.4 3.8-1.4-3.8z" fill="#000"/>
+    <path d="M 60 82.1l 1.4 3h-2.8z" fill="#000"/>
   </g>
-  <path d="M 60 82.1l 1.4 3-1.4 3.8-1.4-3.8z" fill="#000"/>
-  <path d="M 60 82.1l 1.4 3h-2.8z" fill="#000"/>
 </svg>
