@@ -1,0 +1,11 @@
+# Local QA scratch pages (headless-screenshot harness) — not part of the site
+_qa.html
+_audit.html
+_audit2.html
+_emblem.html
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

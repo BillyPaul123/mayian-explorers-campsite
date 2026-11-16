@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mayian Explorers Campsite — Explore the Blessed Land, Samburu</title>
+<meta name="description" content="A traditional Samburu manyatta four kilometres from Samburu National Reserve. Guided by Samburu. Home of the Big Five and the Special Five, led by a National Geographic Explorer.">
+<meta name="theme-color" content="#F5F0E6">
+<link rel="icon" href="assets/img/emblem.svg" type="image/svg+xml">
+<meta property="og:title" content="Mayian Explorers Campsite — Samburu, Kenya">
+<meta property="og:description" content="Explore the Blessed Land. A camp in the heart of a Samburu manyatta, 4 km from Samburu National Reserve.">
+<meta property="og:image" content="assets/img/hero-river.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+<script>
+  // Only hide reveal content when we can show it again.
+  if ('IntersectionObserver' in window &&
+      !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.documentElement.classList.add('js');
+    // Safety net: if the main script never runs, never leave the page blank.
+    setTimeout(function () {
+      if (!document.querySelector('[data-reveal].is-in')) {
+        var s = document.createElement('style');
+        s.textContent = '[data-reveal]{opacity:1!important;transform:none!important}';
+        document.head.appendChild(s);
+      }
+    }, 6000);
+  }
+</script>
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Campground",
+  "name": "Mayian Explorers Campsite",
+  "description": "A traditional Samburu manyatta experience 4 km from Samburu National Reserve, guided by Samburu hosts and a National Geographic Explorer.",
+  "address": { "@type": "PostalAddress", "addressRegion": "Samburu County", "addressCountry": "KE" },
+  "telephone": "+254713186054",
+  "slogan": "Explore the Blessed Land.",
+  "knowsAbout": ["Samburu culture", "Big Five", "Samburu Special Five", "Lion conservation", "Bird watching", "Mountain climbing"]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"><span data-progress></span></div>
+
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="Mayian Explorers Campsite — home">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">
+        <span class="brand__name">Mayian</span>
+        <span class="brand__sub">Explorers Campsite</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#welcome">Welcome</a>
+      <a href="#activities">Activities</a>
+      <a href="#journey">The Journey</a>
+      <a href="#wildlife">Wildlife</a>
+      <a href="#conservation">Conservation</a>
+    </nav>
+
+    <a class="btn btn--pill btn--dark nav__cta" href="#book">
+      <span>Book a stay</span>
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+      <span class="sr-only">Menu</span>
+      <span class="nav__bars" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" hidden data-menu>
+  <nav aria-label="Mobile">
+    <a href="#welcome"><span>01</span> Welcome</a>
+    <a href="#activities"><span>02</span> Activities</a>
+    <a href="#journey"><span>03</span> The Journey</a>
+    <a href="#wildlife"><span>04</span> Wildlife</a>
+    <a href="#conservation"><span>05</span> Conservation</a>
+    <a href="#stay"><span>06</span> The Camp</a>
+    <a href="#book"><span>07</span> Book a stay</a>
+  </nav>
+  <p class="mobile-menu__meta">Samburu · Northern Kenya<br><a href="https://wa.me/254713186054">+254 713 186 054</a></p>
+</div>
+
+<main id="main">
+
+  <!-- ───────────────────────────── HERO ───────────────────────────── -->
+  <section class="hero" id="top">
+    <div class="hero__media">
+      <img src="assets/img/hero-river.jpg" alt="The Ewaso Ng'iro river winding through Samburu at golden hour" fetchpriority="high">
+    </div>
+    <div class="hero__veil" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
+
+    <div class="hero__content wrap">
+      <p class="eyebrow eyebrow--light" data-reveal>
+        <span class="dot" aria-hidden="true"></span> Samburu · Northern Kenya
+      </p>
+
+      <h1 class="hero__title" data-reveal data-delay="1">
+        Explore the<br><em>Blessed Land.</em>
+      </h1>
+
+      <div class="hero__foot" data-reveal data-delay="3">
+        <p class="hero__lede">
+          A traditional Samburu manyatta, four kilometres from the Ewaso Ng'iro.
+          Stay with the people who know it — and see Kenya as it is lived.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--pill btn--light" href="#book">Plan your stay</a>
+          <a class="btn btn--ghost" href="#journey">
+            <span>The journey</span>
+            <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 3v9M4.5 8.5 8 12l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__meta" aria-hidden="true">
+      <span>4 km from the reserve</span>
+      <span>Big Five &amp; Special Five</span>
+      <span>Guided by Samburu</span>
+    </div>
+
+    <a class="hero__scroll" href="#welcome" aria-label="Scroll to welcome">
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ─────────────────────────── VALUES STRIP ─────────────────────────── -->
+  <div class="strip" aria-label="Our values">
+    <div class="strip__inner wrap">
+      <span>Sustainable</span><i aria-hidden="true"></i>
+      <span>Authentic</span><i aria-hidden="true"></i>
+      <span>Guided by Samburu</span>
+    </div>
+  </div>
+
+  <!-- ───────────────────────────── WELCOME ───────────────────────────── -->
+  <section class="section welcome" id="welcome">
+    <div class="wrap welcome__grid">
+      <div class="welcome__aside">
+        <p class="eyebrow" data-reveal>Welcome</p>
+        <h2 class="display" data-reveal data-delay="1">
+          In the heart<br>of <em>Samburu</em>
+        </h2>
+        <figure class="welcome__figure" data-reveal data-delay="2">
+          <img src="assets/img/samburu-people.jpg" alt="Samburu hosts in traditional beadwork and crimson shúkàs at a cultural gathering" loading="lazy">
+          <figcaption>Guided by the people of the manyatta.</figcaption>
+        </figure>
+      </div>
+
+      <div class="welcome__body">
+        <p class="lede" data-reveal>
+          Mayian Explorers Campsite sits in the heart of Samburu, northern Kenya,
+          right in the middle of a traditional Samburu manyatta.
+        </p>
+        <p data-reveal data-delay="1">
+          Here you get a true, authentic experience of nomadic pastoralist life —
+          from the village, to how our people live in harmony with their livestock.
+        </p>
+        <p data-reveal data-delay="2">
+          We are located just four kilometres from the Samburu National Reserve,
+          home to the Big Five and the famous Samburu Special Five. At Mayian we
+          embrace conservation, especially of the big cats. Our camp is led by one
+          of the best professional Samburu guides — a lion expert and National
+          Geographic Explorer, featured in <em>The Pride of Samburu</em>.
+        </p>
+
+        <dl class="facts" data-reveal data-delay="3">
+          <div class="facts__row">
+            <dt>4 km</dt>
+            <dd>to Samburu National Reserve</dd>
+          </div>
+          <div class="facts__row">
+            <dt>5 + 5</dt>
+            <dd>the Big Five and the Special Five</dd>
+          </div>
+          <div class="facts__row">
+            <dt>1 guide</dt>
+            <dd>lion expert &amp; National Geographic Explorer</dd>
+          </div>
+          <div class="facts__row">
+            <dt>100%</dt>
+            <dd>Samburu-led, community-rooted</dd>
+          </div>
+        </dl>
+
+        <p class="signature" data-reveal>Explore the Blessed Land.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ──────────────────────────── ACTIVITIES ──────────────────────────── -->
+  <section class="section activities" id="activities">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow" data-reveal>Activities</p>
+        <h2 class="display display--md" data-reveal data-delay="1">
+          Days shaped by<br>the land
+        </h2>
+        <p class="section-head__note" data-reveal data-delay="2">
+          Nothing staged. You join the rhythm of the manyatta and the reserve —
+          on foot, at dawn, and by the fire.
+        </p>
+      </header>
+
+      <div class="activities__grid">
+        <article class="act" data-reveal>
+          <div class="act__top">
+            <span class="act__num">01</span>
+            <svg class="act__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="17" cy="27" r="8"/><circle cx="33" cy="27" r="8"/>
+              <path d="M25 23.5h6"/><path d="M17 19v-3M33 19v-3"/>
+              <path d="M11 24c-2-3-2-6 0-8M37 24c2-3 2-6 0-8"/>
+            </svg>
+          </div>
+          <h3>Bird walks</h3>
+          <p>Guided nature trails through the dry thorn scrub, with lilac-breasted
+            rollers, hornbills and glossy starlings moving between branches.</p>
+          <p class="act__tag">Guided nature trails</p>
+        </article>
+
+        <article class="act" data-reveal data-delay="1">
+          <div class="act__top">
+            <span class="act__num">02</span>
+            <svg class="act__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 12 8 24h32L24 12Z"/><path d="M12 24v12h24V24"/>
+              <path d="M21 36v-7h6v7"/><path d="M24 5v7"/>
+            </svg>
+          </div>
+          <h3>Cultural village visits</h3>
+          <p>Step inside the manyatta with Samburu hosts — beadwork, cattle,
+            and the daily life of a nomadic pastoralist family.</p>
+          <p class="act__tag">Traditional manyatta experience</p>
+        </article>
+
+        <article class="act" data-reveal data-delay="2">
+          <div class="act__top">
+            <span class="act__num">03</span>
+            <svg class="act__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M4 38 18 16l7 11 5-7 14 18H4Z"/><path d="M18 16v-4"/>
+              <path d="M13 21h10"/>
+            </svg>
+          </div>
+          <h3>Mountain climbing</h3>
+          <p>A trek up the rocky ridges of the Mathews Range, to the summit at
+            Sapache where the plains meet the sky.</p>
+          <p class="act__tag">Mathews Range · Sapache</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────────── JOURNEY ───────────────────────────── -->
+  <section class="section journey" id="journey">
+    <div class="wrap">
+      <header class="section-head section-head--wide">
+        <p class="eyebrow" data-reveal>The Journey</p>
+        <h2 class="display display--md" data-reveal data-delay="1">Four days,<br>one blessed land</h2>
+        <p class="section-head__note" data-reveal data-delay="2">
+          From the first cowbell at dawn to the last song under the stars.
+        </p>
+      </header>
+    </div>
+
+    <!-- Chapter 01 -->
+    <article class="chapter" data-reveal>
+      <div class="chapter__media">
+        <img src="assets/img/roller.jpg" alt="A lilac-breasted roller perched on a branch" loading="lazy">
+        <span class="chapter__caption">Lilac-breasted roller · dawn walk</span>
+      </div>
+      <div class="chapter__text">
+        <div class="chapter__head">
+          <span class="chapter__num">01</span>
+          <h3>Morning in<br>the Manyatta</h3>
+        </div>
+        <p>The day began with the soft chime of cowbells and the gentle lowing of
+          cattle — the lifeblood and wealth of the Samburu people. Guests at Mayian
+          woke early, stepping out of their tents to join the village elders and herders.</p>
+        <p>Guided by local Samburu hosts draped in brilliant crimson shúkàs and
+          intricate beadwork, visitors walked through the thorny acacia enclosure —
+          the kraal — of the manyatta. They watched as young herders carefully tended
+          their livestock, learning how milk and blood sustained generations through
+          drought and bloom, and how a deep respect for the land dictated every
+          seasonal migration.</p>
+        <p>Just a short walk from camp lay the pristine wilderness. With binoculars
+          in hand, guests joined an early morning bird walk.</p>
+      </div>
+    </article>
+
+    <!-- Chapter 02 -->
+    <article class="chapter chapter--flip" data-reveal>
+      <div class="chapter__media">
+        <img src="assets/img/elephants.jpg" alt="Elephants crossing the Ewaso Ng'iro river in Samburu" loading="lazy">
+        <span class="chapter__caption">Ewaso Ng'iro · 4 km from camp</span>
+      </div>
+      <div class="chapter__text">
+        <div class="chapter__head">
+          <span class="chapter__num">02</span>
+          <h3>Into the<br>Wild Samburu</h3>
+        </div>
+        <p>Just four kilometres away lay the famed Samburu National Reserve, a
+          sanctuary like no other. Leaving the manyatta behind, the safari vehicle
+          wound its way toward the Ewaso Ng'iro River.</p>
+        <p>Samburu was famous for the “Big Five,” but it was the Samburu Special
+          Five that truly held the crowd spellbound:</p>
+        <ul class="tick-list">
+          <li>Long-necked gerenuk, standing on hind legs to reach high acacia leaves</li>
+          <li>Regal Grevy's zebra, with its fine, narrow stripes</li>
+          <li>Bold, long-horned beisa oryx</li>
+          <li>Somali ostrich, displaying its blue-tinted neck</li>
+          <li>Reticulated giraffe, in its intricate net-like patterns</li>
+        </ul>
+        <a class="link-arrow" href="#wildlife">Meet the Special Five
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </article>
+
+    <!-- Chapter 03 -->
+    <article class="chapter" data-reveal>
+      <div class="chapter__media">
+        <img src="assets/img/night-sky.jpg" alt="The night sky over Samburu, stars above the plains" loading="lazy">
+        <span class="chapter__caption">Fireside · an ocean of stars</span>
+      </div>
+      <div class="chapter__text">
+        <div class="chapter__head">
+          <span class="chapter__num">03</span>
+          <h3>Fireside with<br>the Lion Keeper</h3>
+        </div>
+        <p>As afternoon turned to evening, the true heart of Mayian's conservation
+          mission took centre stage.</p>
+        <p>Around a crackling campfire under an ocean of stars, guests gathered
+          around a remarkable figure: a local Samburu lion expert and National
+          Geographic Explorer. Featured in the renowned documentary
+          <em>The Pride of Samburu</em>, he had spent years bridging the gap between
+          ancient pastoral traditions and modern wildlife protection.</p>
+        <p>As sparks danced into the night sky, he shared gripping stories from the
+          field — how local communities learned to protect the big cats rather than
+          fear them, and how individual lions were tracked and named, transforming
+          ancient predators into neighbours.</p>
+        <a class="link-arrow" href="#conservation">The conservation story
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </article>
+
+    <!-- Chapter 04 -->
+    <article class="chapter chapter--flip" data-reveal>
+      <div class="chapter__media">
+        <img src="assets/img/ololokwe.jpg" alt="Mount Ololokwe rising above the Mathews Range in Samburu" loading="lazy">
+        <span class="chapter__caption">Ololokwe · the blessed mountain</span>
+      </div>
+      <div class="chapter__text">
+        <div class="chapter__head">
+          <span class="chapter__num">04</span>
+          <h3>Summit<br>and Song</h3>
+        </div>
+        <p>The adventure reached its crescendo on the final day with a trek up the
+          nearby rocky ridges. From the summit, the vista stretched endlessly — from
+          the winding river below to the distant horizon where the Samburu plains
+          met the sky.</p>
+        <p>Returning to camp as dusk settled, the community gathered to celebrate
+          with traditional Samburu songs and high-jumping dances, the Adumu. The
+          rhythmic chants echoed against the hills, carrying the energy of a culture
+          that thrives in harmony with nature.</p>
+        <p>As night fell over the manyatta, guests lay back under the canopy of
+          stars at Mayian Explorers Campsite, knowing they hadn't just visited
+          Kenya — they had lived it.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ───────────────────────────── WILDLIFE ───────────────────────────── -->
+  <section class="section wildlife" id="wildlife">
+    <div class="wrap">
+      <header class="section-head section-head--wide">
+        <p class="eyebrow" data-reveal>The Special Five</p>
+        <h2 class="display display--md" data-reveal data-delay="1">
+          Found here,<br>and almost nowhere else
+        </h2>
+        <p class="section-head__note" data-reveal data-delay="2">
+          Samburu's dry-country specialists — a field guide to the animals that
+          make this reserve unlike any other.
+        </p>
+      </header>
+
+      <div class="five" data-five>
+        <div class="five__list">
+          <button class="five__item is-active" type="button" aria-pressed="true" data-five-item="gerenuk">
+            <span class="five__idx">01</span>
+            <span class="five__name">Gerenuk<em>Litocranius walleri</em></span>
+            <span class="five__desc">The long-necked gerenuk, standing on its hind legs to reach high acacia leaves.</span>
+          </button>
+          <button class="five__item" type="button" aria-pressed="false" data-five-item="zebra">
+            <span class="five__idx">02</span>
+            <span class="five__name">Grevy's zebra<em>Equus grevyi</em></span>
+            <span class="five__desc">The regal Grevy's zebra, with its fine, narrow stripes.</span>
+          </button>
+          <button class="five__item" type="button" aria-pressed="false" data-five-item="oryx">
+            <span class="five__idx">03</span>
+            <span class="five__name">Beisa oryx<em>Oryx beisa</em></span>
+            <span class="five__desc">The bold, long-horned beisa oryx.</span>
+          </button>
+          <button class="five__item" type="button" aria-pressed="false" data-five-item="ostrich">
+            <span class="five__idx">04</span>
+            <span class="five__name">Somali ostrich<em>Struthio molybdophanes</em></span>
+            <span class="five__desc">The majestic Somali ostrich, displaying its blue-tinted neck.</span>
+          </button>
+          <button class="five__item" type="button" aria-pressed="false" data-five-item="giraffe">
+            <span class="five__idx">05</span>
+            <span class="five__name">Reticulated giraffe<em>Giraffa reticulata</em></span>
+            <span class="five__desc">The intricate, net-like patterns of the reticulated giraffe.</span>
+          </button>
+        </div>
+
+        <figure class="five__stage">
+          <img src="assets/img/gerenuk.jpg" alt="A gerenuk standing upright to browse acacia" data-five-img="gerenuk" class="is-active" loading="lazy">
+          <img src="assets/img/zebra.jpg" alt="A Grevy's zebra with fine narrow stripes" data-five-img="zebra" loading="lazy">
+          <img src="assets/img/oryx.jpg" alt="A beisa oryx with long horns" data-five-img="oryx" loading="lazy">
+          <img src="assets/img/ostrich.jpg" alt="A female Somali ostrich" data-five-img="ostrich" loading="lazy">
+          <img src="assets/img/giraffe.jpg" alt="A reticulated giraffe with net-like markings" data-five-img="giraffe" loading="lazy">
+          <figcaption data-five-caption>Gerenuk · Samburu dry country</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── CONSERVATION ─────────────────────────── -->
+  <section class="conservation" id="conservation">
+    <div class="conservation__media" aria-hidden="true">
+      <img src="assets/img/lion.jpg" alt="" loading="lazy">
+    </div>
+    <div class="conservation__veil" aria-hidden="true"></div>
+
+    <div class="wrap conservation__inner">
+      <p class="eyebrow eyebrow--light" data-reveal>Conservation</p>
+      <h2 class="conservation__title" data-reveal data-delay="1">
+        Ancient predators,<br><em>now neighbours.</em>
+      </h2>
+      <blockquote class="conservation__quote" data-reveal data-delay="2">
+        “He shared how individual lions were tracked and named — transforming
+        ancient predators into neighbours.”
+      </blockquote>
+      <div class="conservation__body" data-reveal data-delay="3">
+        <p>At Mayian we embrace conservation, especially of the big cats. Our camp
+          is led by one of the best professional Samburu guides — a lion expert and
+          National Geographic Explorer featured in <em>The Pride of Samburu</em>.</p>
+        <p>His work bridges the gap between ancient pastoral traditions and modern
+          wildlife protection: communities learning to protect the big cats rather
+          than fear them, and guests leaving with a profound appreciation for the
+          fragile balance between human and lion.</p>
+      </div>
+      <div class="conservation__marks" data-reveal data-delay="4">
+        <span>National Geographic Explorer</span>
+        <span>Featured in <em>The Pride of Samburu</em></span>
+        <span>Community-led</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ────────────────────────────── CAMP ────────────────────────────── -->
+  <section class="section stay" id="stay">
+    <div class="wrap stay__grid">
+      <figure class="stay__media">
+        <div class="stay__pair">
+          <img class="stay__img stay__img--tall" src="assets/img/lodge-hut.jpg" alt="A thatched camp hut overlooking the savanna" loading="lazy">
+          <img class="stay__img stay__img--small" src="assets/img/savanna.jpg" alt="Acacia and open savanna in Samburu National Reserve" loading="lazy">
+        </div>
+        <figcaption class="stay__caption">The hut, and the savanna that opens beyond the manyatta.</figcaption>
+      </figure>
+
+      <div class="stay__body">
+        <p class="eyebrow" data-reveal>The Camp</p>
+        <h2 class="display display--md" data-reveal data-delay="1">Where you<br>wake up</h2>
+        <p class="lede" data-reveal data-delay="2">
+          Tents inside the manyatta. Cowbells at first light. The herd moving out,
+          and the day opening with it.
+        </p>
+        <p data-reveal data-delay="3">
+          You are a guest of the village, not a spectator to it. Evenings end around
+          the fire; mornings begin with elders and herders. The wilderness starts a
+          short walk from your tent.
+        </p>
+
+        <ul class="stay__list" data-reveal data-delay="4">
+          <li><span>Tents within the manyatta</span></li>
+          <li><span>Dawn with the herds and herders</span></li>
+          <li><span>Campfire storytelling under the stars</span></li>
+          <li><span>Bird walks from camp</span></li>
+        </ul>
+
+        <a class="btn btn--pill btn--dark" href="#book" data-reveal data-delay="5">Check availability</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ────────────────────────────── BOOK ────────────────────────────── -->
+  <section class="section book" id="book">
+    <div class="wrap">
+      <div class="book__panel" data-reveal>
+        <p class="eyebrow">Book direct</p>
+        <h2 class="display display--md">Come and see.</h2>
+        <p class="book__lede">
+          Book on WhatsApp and we'll help you plan the drive from Nairobi, the days
+          in the reserve, and the evenings by the fire.
+        </p>
+
+        <div class="book__actions">
+          <a class="btn btn--pill btn--dark btn--lg" href="https://wa.me/254713186054?text=Jambo%20Mayian%20—%20I'd%20like%20to%20plan%20a%20stay">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.6-.1a12 12 0 0 1-5.9-5.2c-.4-.7-.7-1.5-.7-2.2 0-.7.4-1.2.6-1.4.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6a8.6 8.6 0 0 0 3.8 3.3c.3.1.5.1.6-.1l.7-.8c.2-.2.3-.2.5-.1l1.8.9c.3.1.4.2.5.3 0 .1 0 .6-.2 1.1Z"/></svg>
+            <span>+254 713 186 054</span>
+          </a>
+          <a class="btn btn--pill btn--outline btn--lg" href="https://wa.me/254728237716?text=Jambo%20Mayian%20—%20I'd%20like%20to%20plan%20a%20stay">
+            <span>+254 728 237 716</span>
+          </a>
+        </div>
+
+        <p class="book__meta">
+          <span>Sustainable</span><i aria-hidden="true"></i>
+          <span>Authentic</span><i aria-hidden="true"></i>
+          <span>Guided by Samburu</span>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="dusk" aria-hidden="true"></div>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <span class="brand__mark brand__mark--lg" aria-hidden="true"></span>
+      <p class="footer__name">Mayian<br>Explorers Campsite</p>
+      <p class="footer__place">Samburu County · Northern Kenya</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <p class="footer__label">Explore</p>
+      <a href="#welcome">Welcome</a>
+      <a href="#activities">Activities</a>
+      <a href="#journey">The Journey</a>
+      <a href="#wildlife">Wildlife</a>
+      <a href="#conservation">Conservation</a>
+    </nav>
+
+    <div class="footer__contact">
+      <p class="footer__label">Book</p>
+      <a href="https://wa.me/254713186054">+254 713 186 054</a>
+      <a href="https://wa.me/254728237716">+254 728 237 716</a>
+      <p class="footer__note">WhatsApp, daily</p>
+    </div>
+
+    <div class="footer__mark">
+      <p class="footer__label">Explore the Blessed Land.</p>
+      <p class="footer__small">A camp inside a Samburu manyatta, four kilometres from the Ewaso Ng'iro.</p>
+    </div>
+  </div>
+
+  <div class="wrap footer__base">
+    <p>© <span data-year>2026</span> Mayian Explorers Campsite</p>
+    <details class="credits">
+      <summary>Photography credits</summary>
+      <ul>
+        <li>Ewaso Ng'iro at Samburu Intrepids — Daniel Case, CC BY-SA 4.0</li>
+        <li>Samburu National Reserve — Wikimedia Commons, CC BY-SA</li>
+        <li>Elephants crossing the Ewaso Ng'iro — Julian Mason, CC BY 2.0</li>
+        <li>Samburu cultural festival — Antony Trivet, CC BY 2.0</li>
+        <li>Mt. Ololokwe — Wikimedia Commons, CC BY-SA</li>
+        <li>Lion — Giles Laurent, CC BY-SA 4.0</li>
+        <li>Lilac-breasted roller — Charles J. Sharp, CC BY-SA 4.0</li>
+        <li>Gerenuk — Bernard Dupont, CC BY-SA 2.0</li>
+        <li>Grevy's zebra — André Karwath, CC BY-SA 2.5</li>
+        <li>Beisa oryx, Samburu — ChrisHodgesUK, CC BY-SA 3.0</li>
+        <li>Somali ostrich, Samburu — ninara, CC BY 2.0</li>
+        <li>Reticulated giraffe — Quartl, CC BY-SA 3.0</li>
+        <li>Lions Bluff Lodge hut — CT Cooper, CC BY 3.0</li>
+        <li>Night sky — Carlos Zudaire / IAU OAE, CC BY 4.0</li>
+      </ul>
+      <p>Photographs are illustrative placeholders from Wikimedia Commons and can be
+        replaced with original camp photography.</p>
+    </details>
+    <a class="footer__top" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
