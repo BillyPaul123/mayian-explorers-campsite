@@ -972,8 +972,8 @@ body::after {
 .stay__caption {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: .85rem;
-  color: var(--ink-mute);
+  font-size: .9rem;
+  color: var(--ink-soft);
   text-align: center;
   text-wrap: balance;
 }

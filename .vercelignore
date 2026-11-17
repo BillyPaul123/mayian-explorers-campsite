@@ -1,0 +1,6 @@
+# Only the site itself is deployed; these are source/reference material.
+docs/
+README.md
+CONTENT.md
+serve.ps1
+.gitignore

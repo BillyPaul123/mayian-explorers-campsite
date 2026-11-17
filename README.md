@@ -24,6 +24,20 @@ powershell -ExecutionPolicy Bypass -File .\serve.ps1
 Deploy by uploading the folder to any static host (Netlify, Vercel, Cloudflare
 Pages, GitHub Pages, plain nginx).
 
+### Vercel
+
+This is a no-build static site. Import the repo and use:
+
+| Setting | Value |
+| --- | --- |
+| Framework Preset | `Other` |
+| Build Command | *(leave blank)* |
+| Output Directory | `.` |
+| Install Command | *(leave blank)* |
+
+`vercel.json` sets `cleanUrls`; `.vercelignore` keeps `docs/`, `README.md`,
+`CONTENT.md` and `serve.ps1` out of the deployment so only the site is served.
+
 ## Structure
 
 ```
