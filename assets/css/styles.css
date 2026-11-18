@@ -512,10 +512,11 @@ body::after {
   align-items: flex-end;
   gap: .55rem;
   font-size: .64rem;
+  font-weight: 500;
   letter-spacing: .16em;
   text-transform: uppercase;
-  color: rgba(251, 248, 242, .74);
-  text-shadow: 0 1px 10px rgba(10, 8, 6, .35);
+  color: rgba(251, 248, 242, .84);
+  text-shadow: 0 1px 12px rgba(10, 8, 6, .45);
 }
 .hero__meta span {
   padding-bottom: .35rem;
@@ -805,7 +806,9 @@ body::after {
   text-align: left;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  transition: background-color .4s var(--ease);
 }
+.five__item:hover { background: rgba(162, 96, 60, .045); }
 .five__idx {
   font-size: .64rem;
   letter-spacing: .14em;
@@ -844,7 +847,7 @@ body::after {
   color: var(--ink-soft);
   transition: max-height .55s var(--ease), opacity .45s var(--ease), margin .55s var(--ease);
 }
-.five__item.is-active { padding-left: .9rem; }
+.five__item.is-active { padding-left: .9rem; box-shadow: inset 2px 0 0 var(--clay); }
 .five__item.is-active .five__name { color: var(--clay-deep); }
 .five__item.is-active .five__desc { max-height: 5rem; opacity: 1; margin-top: .5rem; }
 .five__item:hover .five__name { color: var(--clay-deep); }
@@ -1214,7 +1217,7 @@ html.js [data-delay="5"] { transition-delay: .4s; }
   .chapter__media img { aspect-ratio: 16 / 10; }
 
   .five { grid-template-columns: 1fr; }
-  .five__stage { position: static; order: -1; margin-bottom: .5rem; }
+  .five__stage { position: relative; top: auto; order: -1; margin-bottom: .5rem; }
   .five__stage img { aspect-ratio: 3 / 2; }
   .five__stage img { position: absolute; }
   .five__stage img.is-active { position: relative; }
@@ -1255,10 +1258,18 @@ html.js [data-delay="5"] { transition-delay: .4s; }
 }
 
 @media (max-width: 480px) {
+  .nav__inner { gap: 1rem; }
   .hero__title { font-size: clamp(2.7rem, 13vw, 3.6rem); }
   .strip__inner { font-size: .58rem; letter-spacing: .22em; gap: .7rem; }
   .five__item.is-active { padding-left: 0; }
   .brand__sub { display: none; }
+}
+
+/* Very narrow phones: drop the redundant nav CTA so the menu button stays
+   fully on screen (booking remains in the hero and the menu). */
+@media (max-width: 360px) {
+  .nav__cta { display: none; }
+  .nav__toggle { margin-left: auto; }
 }
 
 /* Accessibility: reduced motion */

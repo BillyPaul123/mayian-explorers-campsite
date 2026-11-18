@@ -99,6 +99,8 @@ Content was kept faithful to the supplied copy. These still need real inputs:
 - [ ] Real camp photography — the current images are credited Wikimedia
       Commons placeholders and should be swapped for own work.
 - [ ] Confirm the WhatsApp numbers and preferred booking flow.
+- [ ] Once the production domain is known, make `og:image` / `twitter:image`
+      (and add `og:url`) absolute URLs, and add the domain to the JSON-LD.
 - [ ] Add analytics and a real favicon/OG image if the camp has a brand asset.
 
 ## Photo credits
