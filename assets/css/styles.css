@@ -722,6 +722,8 @@ body::after {
   filter: saturate(.94);
   transition: transform 1.2s var(--ease), filter .8s var(--ease);
 }
+/* Wide vista: show the whole 16:9 frame rather than cropping to 5:4. */
+.chapter--vista .chapter__media img { aspect-ratio: 16 / 9; }
 .chapter:hover .chapter__media img { transform: scale(1.012); filter: saturate(1); }
 .chapter__caption {
   display: flex;
